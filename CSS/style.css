@@ -61,7 +61,7 @@ body {
 .narbar-right i {
     font-size: 20px;
     cursor: pointer;
-    
+
 }
 
 .profile-icon {
@@ -69,4 +69,68 @@ body {
     height: 32px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* hero section */
+.hero {
+    height: 80vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.1viYNtpK1WF2YrY3InvLnQHaE_%26pid%3DApi&f=1&ipt=e67d7467b7a029e7ac775901f2436b5f23f9c3644b6ede48235d22d7ff48df76&ipo=images) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;
+    margin-bottom: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.hero-description {
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: #e5e5e5;
+}
+
+.hero-button {
+    display: flex;
+    gap: 16px;
+}
+
+.btn {
+    padding: 10px 10px;
+    background-color: #efff;
+    color: #000;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    border: none;
+}
+
+.btn-play {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-play:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+.btn-more-info {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-more-info:hover {
+    background-color: rgba(109, 109, 110, 0.4);
 }
