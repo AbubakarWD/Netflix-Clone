@@ -64,6 +64,11 @@ body {
 
 }
 
+.narbar-right i:hover {
+    color: #b3b3b3;
+
+}
+
 .profile-icon {
     width: 32px;
     height: 32px;
