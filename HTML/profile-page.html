@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/Profile-page.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo"
+                class="logo" />
+        </div>
+        <div class="navbar-nav">
+            <a href="./index.html" class="nav-link">Home</a>
+            <a href="#" class="nav-link">TV Shows</a>
+            <a href="#" class="nav-link">Movies</a>
+            <a href="#" class="nav-link">New & Popular</a>
+            <a href="#" class="nav-link">My List</a>
+        </div>
+        <div class="navbar-right">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bell"></i>
+            <a href="../HTML/profile-page.html"><img src="../Assets/profile-img.png" alt="Profile" class="profile-icon" /></a>
+        </div>
+    </nav>
+
+    <!-- profile details section  -->
+    <section class="Profile-section">
+        <div class="profile-details-container">
+            <div class="profile-header">
+                <div class="profile-avatar-img">
+                    <img src="../Assets/profile-img.png" alt="Profile image">
+                </div>
+
+                <div class="profile-info">
+                    <h1 class="profile-name">Abubakar</h1>
+                    <p class="profile-email">profile@email.com</p>
+                    <div class="membership-info">
+                        <span class="membership-badge">Premium</span>
+                        <span class="membership-details">4K + HDR</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Account settings -->
+            <div class="profile-sections">
+                <div class="profile-sections-content">
+                    <h2>Account Settings</h2>
+                    <div class="setting-grid">
+                        <!-- cards -->
+                        <div class="settings-items">
+                            <div class="setting-header">
+                                <h3>Membership & Billing</h3>
+                                <button class="btn-change">Change Plan</button>
+                            </div>
+                            <p class="Setting-details">Premium Plan-199/month</p>
+                            <p class="Setting-details">Next billing date- July 2025</p>
+                        </div>
+                        <!-- cards -->
+                        <div class="settings-items">
+                            <div class="setting-header">
+                                <h3>Profile and Parental Control</h3>
+                                <button class="btn-change">Manage</button>
+                            </div>
+                            <p class="Setting-details">Profile-1</p>
+                            <p class="Setting-details">All maturity rating</p>
+                        </div>
+                        <!-- cards -->
+                        <div class="settings-items">
+                            <div class="setting-header">
+                                <h3>Privacy nd Security</h3>
+                                <button class="btn-change">Change Password</button>
+                            </div>
+                            <p class="Setting-details">password: ********</p>
+                            <p class="Setting-details">Two factor authentication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
